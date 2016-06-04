@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-05 02:15+0300\n"
+"PO-Revision-Date: 2016-06-05 02:26+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -2145,11 +2145,11 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:85
 msgid "Set network interface"
-msgstr ""
+msgstr "Установить сетевой интерфейс"
 
 #: share/zenmap/misc/profile_editor.xml:87
 msgid "Other options"
-msgstr ""
+msgstr "Прочие опции"
 
 #: share/zenmap/misc/profile_editor.xml:88
 msgid "Any extra options to add to the command line."
