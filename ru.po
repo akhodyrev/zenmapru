@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-05 02:26+0300\n"
+"PO-Revision-Date: 2016-06-05 02:46+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -958,7 +958,7 @@ msgstr "Перевод"
 
 #: zenmapGUI/About.py:324
 msgid "Maemo"
-msgstr ""
+msgstr "Maemo"
 
 #: zenmapGUI/ScanScanListPage.py:134
 msgid "Running"
@@ -1225,15 +1225,15 @@ msgstr "Последняя загрузка:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:224
 msgid "IPv4:"
-msgstr ""
+msgstr "IPv4:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:227
 msgid "IPv6:"
-msgstr ""
+msgstr "IPv6:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:230
 msgid "MAC:"
-msgstr ""
+msgstr "MAC:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:233
 msgid "Vendor:"
