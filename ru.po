@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-05 14:26+0300\n"
+"PO-Revision-Date: 2016-06-05 15:19+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: zenmapGUI/FilterBar.py:24
 msgid "Host Filter:"
-msgstr "Фильтр хостов:"
+msgstr "Фильтр узлов:"
 
 #: zenmapGUI/FilterBar.py:57
 msgid ""
@@ -360,11 +360,11 @@ msgstr "Искать результат сканирования"
 
 #: zenmapGUI/MainWindow.py:324 zenmapGUI/ScanInterface.py:917
 msgid "Filter Hosts"
-msgstr "Фильтр хостов"
+msgstr "Фильтр узлов"
 
 #: zenmapGUI/MainWindow.py:326
 msgid "Search for host by criteria"
-msgstr "Искать хост по критериям"
+msgstr "Искать узел по критериям"
 
 #: zenmapGUI/MainWindow.py:331
 msgid "_Edit Selected Profile"
@@ -591,7 +591,7 @@ msgstr ""
 #: zenmapGUI/ScanInterface.py:738
 #, python-format
 msgid "%d/%d hosts shown"
-msgstr "%d/%d хостов показано"
+msgstr "%d/%d узлов показано"
 
 #: zenmapGUI/ScanInterface.py:967
 msgid "Nmap Output"
@@ -599,7 +599,7 @@ msgstr "Вывод Nmap"
 
 #: zenmapGUI/ScanInterface.py:968
 msgid "Ports / Hosts"
-msgstr "Порты / Хосты"
+msgstr "Порты / Узлы"
 
 #: zenmapGUI/ScanInterface.py:969
 msgid "Topology"
@@ -607,7 +607,7 @@ msgstr "Топология"
 
 #: zenmapGUI/ScanInterface.py:970
 msgid "Host Details"
-msgstr "Детали хоста"
+msgstr "Детали узла"
 
 #: zenmapGUI/ScanInterface.py:971
 msgid "Scans"
@@ -615,7 +615,7 @@ msgstr "Сканирование"
 
 #: zenmapGUI/ScanInterface.py:992
 msgid "No host selected."
-msgstr "Не выбран хост"
+msgstr "Узел не выбран"
 
 #: zenmapGUI/ScanOpenPortsPage.py:232 zenmapGUI/ScanOpenPortsPage.py:262
 #: radialnet/gui/NodeNotebook.py:133
@@ -639,7 +639,7 @@ msgstr "Версия"
 
 #: zenmapGUI/ScanOpenPortsPage.py:260 radialnet/gui/NodeNotebook.py:144
 msgid "Hostname"
-msgstr "Имя хоста"
+msgstr "Имя узла"
 
 #: zenmapGUI/BugReport.py:141
 msgid "How to Report a Bug"
@@ -885,7 +885,7 @@ msgstr "дата"
 
 #: zenmapGUI/NmapOutputProperties.py:176
 msgid "hostname"
-msgstr "имя хоста"
+msgstr "имя узла"
 
 #: zenmapGUI/NmapOutputProperties.py:177
 msgid "ip"
@@ -1182,7 +1182,7 @@ msgstr "Не root-пользователь"
 
 #: zenmapGUI/ScanHostDetailsPage.py:186
 msgid "Host Status"
-msgstr "Статус хоста"
+msgstr "Статус узла"
 
 #: zenmapGUI/ScanHostDetailsPage.py:187
 msgid "Addresses"
@@ -1190,7 +1190,7 @@ msgstr "Адреса"
 
 #: zenmapGUI/ScanHostDetailsPage.py:188
 msgid "Hostnames"
-msgstr "Имена хоста"
+msgstr "Имена узла"
 
 #: zenmapGUI/ScanHostDetailsPage.py:189 radialnet/gui/NodeNotebook.py:432
 msgid "Operating System"
@@ -1311,7 +1311,7 @@ msgstr "Класс:"
 
 #: radialnet/gui/Toolbar.py:153
 msgid "Hosts viewer"
-msgstr "Просмотр хостов"
+msgstr "Просмотр узлов"
 
 #: radialnet/gui/Toolbar.py:222
 msgid "Save Graphic"
@@ -1319,7 +1319,7 @@ msgstr "Сохранить изображение"
 
 #: radialnet/gui/Toolbar.py:225 radialnet/gui/HostsViewer.py:147
 msgid "Hosts Viewer"
-msgstr "Просмотр хостов"
+msgstr "Просмотр узлов"
 
 #: radialnet/gui/Toolbar.py:229
 msgid "Controls"
@@ -1446,7 +1446,7 @@ msgstr "Адрес:"
 
 #: radialnet/gui/NodeNotebook.py:463
 msgid "Hostname:"
-msgstr "Имя хоста:"
+msgstr "Имя узла:"
 
 #: radialnet/gui/NodeNotebook.py:487
 #, python-format
