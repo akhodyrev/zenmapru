@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-05 02:46+0300\n"
+"PO-Revision-Date: 2016-06-05 14:26+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -505,6 +505,8 @@ msgid ""
 "The window you are trying to close has a scan running in the background.\n"
 "What do you want to do?"
 msgstr ""
+"В окне, которое вы путаетесь закрыть, запущено фоновое сканирование. \n"
+"Что вы хотете сделать?"
 
 #: zenmapGUI/MainWindow.py:946
 msgid "Can't find documentation files"
@@ -529,12 +531,16 @@ msgid ""
 "exist. Please check the profile name or type the nmap command you would like "
 "to execute."
 msgstr ""
+"Нет команды для выполнения. Возможно выбраный/указанный профиль не "
+"существует. Проверьте профиль или тип команды, которую вы хотите выполнить."
 
 #: zenmapGUI/ScanInterface.py:543
 msgid ""
 "This means that the nmap executable was not found in your system PATH, which "
 "is"
 msgstr ""
+"Это означает, что исполняемый файл Nmap не был найден в вашей системе по "
+"путям в переменной PATH."
 
 #: zenmapGUI/ScanInterface.py:545
 msgid "<undefined>"
@@ -578,6 +584,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Произошла ошибка при слиянии новых отчетов XML:\n"
+"\n"
+"%s"
 
 #: zenmapGUI/ScanInterface.py:738
 #, python-format
@@ -1020,19 +1029,19 @@ msgstr "Nmap XML файлы (%s)"
 #: zenmapGUI/FileChoosers.py:157
 #, python-format
 msgid "NSE scripts (%s)"
-msgstr ""
+msgstr "NSE скрипты (%s)"
 
 #: zenmapGUI/FileChoosers.py:237 radialnet/gui/SaveDialog.py:130
 msgid "By extension"
-msgstr ""
+msgstr "По расширению"
 
 #: zenmapGUI/FileChoosers.py:238
 msgid "Nmap XML format (.xml)"
-msgstr ""
+msgstr "XML-формат nmap (.xml)"
 
 #: zenmapGUI/FileChoosers.py:239
 msgid "Nmap text format (.nmap)"
-msgstr ""
+msgstr "Текстовый формат nmap (.nmap)"
 
 #: zenmapGUI/FileChoosers.py:268 radialnet/gui/SaveDialog.py:167
 msgid "Select File Type:"
@@ -1080,7 +1089,7 @@ msgstr "Необходимо указать имя для профиля."
 
 #: zenmapGUI/ProfileEditor.py:386
 msgid "Disallowed profile name"
-msgstr ""
+msgstr "Недопустимое имя профиля"
 
 #: zenmapGUI/ProfileEditor.py:387
 #, python-format
@@ -1089,6 +1098,8 @@ msgid ""
 "underlying ConfigParser used to store profiles does not allow it.) Choose a "
 "different name."
 msgstr ""
+"Извините, имя \"%s\" не допустимо по техническим ограниениям. (Используемый "
+"парсер не может использовать это имя) Выберите другое имя."
 
 #: zenmapGUI/ProfileEditor.py:412
 msgid "Deleting Profile"
@@ -1099,6 +1110,8 @@ msgid ""
 "Your profile is going to be deleted! ClickOk to continue, or Cancel to go "
 "back to Profile Editor."
 msgstr ""
+"Ваш профиль будет удален! Нажмите OK для продолжения, или Отмену для "
+"возвращения в редактор профиля."
 
 #: zenmapGUI/SearchWindow.py:148
 msgid "Search Scans"
@@ -1189,7 +1202,7 @@ msgstr "Используемые порты"
 
 #: zenmapGUI/ScanHostDetailsPage.py:192
 msgid "OS Classes"
-msgstr ""
+msgstr "Семейство ОС"
 
 #: zenmapGUI/ScanHostDetailsPage.py:193
 msgid "TCP Sequence"
@@ -1257,7 +1270,7 @@ msgstr "Точность:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:410
 msgid "Port-Protocol-State:"
-msgstr ""
+msgstr "Порт-Протокол-Состояние"
 
 #: zenmapGUI/ScanHostDetailsPage.py:424 radialnet/gui/NodeNotebook.py:157
 msgid "Type"
@@ -1285,7 +1298,7 @@ msgstr "Сложность:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:460
 msgid "Index:"
-msgstr ""
+msgstr "Индекс:"
 
 #: zenmapGUI/ScanHostDetailsPage.py:463 zenmapGUI/ScanHostDetailsPage.py:482
 #: zenmapGUI/ScanHostDetailsPage.py:501
@@ -1334,15 +1347,15 @@ msgstr "Причина"
 
 #: radialnet/gui/NodeNotebook.py:144
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: radialnet/gui/NodeNotebook.py:144
 msgid "RTT"
-msgstr ""
+msgstr "RTT"
 
 #: radialnet/gui/NodeNotebook.py:144
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: radialnet/gui/NodeNotebook.py:147
 #, python-format
@@ -1454,7 +1467,7 @@ msgstr "Используемые порты"
 
 #: radialnet/gui/NodeNotebook.py:632
 msgid "Fingerprint"
-msgstr ""
+msgstr "Отпечаток"
 
 #: radialnet/gui/NodeNotebook.py:652
 msgid "Values"
@@ -1462,7 +1475,7 @@ msgstr "Значения"
 
 #: radialnet/gui/NodeNotebook.py:654
 msgid "TCP *"
-msgstr ""
+msgstr "TCP *"
 
 #: radialnet/gui/NodeNotebook.py:655
 msgid "IP ID"
@@ -1474,19 +1487,19 @@ msgstr ""
 
 #: radialnet/gui/SaveDialog.py:131
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: radialnet/gui/SaveDialog.py:132
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: radialnet/gui/SaveDialog.py:133
 msgid "PostScript"
-msgstr ""
+msgstr "PostScript"
 
 #: radialnet/gui/SaveDialog.py:134
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: radialnet/gui/SaveDialog.py:147
 msgid "Save Topology"
@@ -1609,7 +1622,7 @@ msgstr "Оповещение"
 
 #: share/zenmap/misc/profile_editor.xml:9
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: share/zenmap/misc/profile_editor.xml:10
 msgid "Scripting"
@@ -2127,7 +2140,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:83
 msgid "Set source IP address"
-msgstr ""
+msgstr "Установить IP адрес источника"
 
 #: share/zenmap/misc/profile_editor.xml:84
 msgid ""
@@ -2137,7 +2150,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:84
 msgid "Set source port"
-msgstr ""
+msgstr "Установить порт источника"
 
 #: share/zenmap/misc/profile_editor.xml:85
 msgid "Tells Nmap what interface to send and receive packets on."
@@ -2157,7 +2170,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:88
 msgid "Extra options defined by user"
-msgstr ""
+msgstr "Дополнительные опции, определенные пользователем"
 
 #: share/zenmap/misc/profile_editor.xml:89
 msgid "Set the IPv4 time-to-live field in sent packets to the given value."
