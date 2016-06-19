@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-05 15:19+0300\n"
+"PO-Revision-Date: 2016-06-19 03:52+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: zenmapCore/NmapParser.py:380
 msgid "Unknown Host"
-msgstr "Неизвестный порт"
+msgstr "Неизвестный узел"
 
 #: zenmapCore/NmapParser.py:421
 msgid "unknown"
-msgstr "Неизвестно"
+msgstr "неизвестно"
 
 #: zenmapCore/NmapParser.py:424
 msgid "Unknown version"
@@ -47,7 +47,7 @@ msgstr "Нет модуля с названием dbapi2.pysqlite2 или sqlite
 #, python-format
 msgid "Use DIR as the user configuration directory. Default: %default"
 msgstr ""
-"Использовать DIR в качестве уонфигурационной папки пользователя. По "
+"Использовать DIR в качестве конфигурационной папки пользователя. По "
 "умолчанию: %default"
 
 #: zenmapCore/UmitOptionParser.py:154
@@ -201,7 +201,7 @@ msgid ""
 "was\n"
 "%s"
 msgstr ""
-"Файл не соответсвует формату выходного Nmap XML файла. Ошибка:\n"
+"Файл не соответствует формату выходного Nmap XML файла. Ошибка:\n"
 "%s"
 
 #: zenmapGUI/DiffCompare.py:268
@@ -215,6 +215,8 @@ msgid ""
 "file:\n"
 "                            %s"
 msgstr ""
+"                            Ошибка при открытии файла:\n"
+"                            %s"
 
 #: zenmapGUI/DiffCompare.py:314 zenmapGUI/MainWindow.py:341
 msgid "Compare Results"
@@ -417,6 +419,8 @@ msgid ""
 "Can't store unsaved scans to the recent scans database:\n"
 "%s"
 msgstr ""
+"Не возможно сохранить несохраненные отчеты в базе последних отчетов:\n"
+"%s"
 
 #: zenmapGUI/MainWindow.py:600
 msgid "Error loading file"
@@ -914,7 +918,7 @@ msgstr "цвет подсветки"
 #: zenmapGUI/About.py:197
 #, python-format
 msgid "About %s and %s"
-msgstr "О программах %s и %s"
+msgstr "О %s и %s"
 
 #: zenmapGUI/About.py:216
 #, python-format
@@ -938,7 +942,9 @@ msgstr ""
 #, python-format
 msgid ""
 "%s is an %s GUI created as part of the Nmap/Google Summer of Code program."
-msgstr "%s это %s GUI, созданное как часть Nmap/Google Summer of code program."
+msgstr ""
+"%s это графический интерфейс для %s созданный в рамках программы Nmap/Google "
+"Summer of Code."
 
 #: zenmapGUI/About.py:229 zenmapGUI/About.py:272
 #, python-format
@@ -1007,7 +1013,7 @@ msgstr "Отменить сканирование"
 
 #: zenmapGUI/TopologyPage.py:180
 msgid "Show the topology anyway"
-msgstr ""
+msgstr "В любом случае показать топологию"
 
 #: zenmapGUI/TopologyPage.py:213
 #, python-format
@@ -1015,6 +1021,8 @@ msgid ""
 "Topology is disabled because too many hosts can cause it\n"
 "to run slowly. The limit is %d hosts and there are %d."
 msgstr ""
+"Топология отключена, т.к. слишком большое количество узлов\n"
+"приведет к замедлению. Ограничение - %d узлов. В топологии - %d."
 
 #: zenmapGUI/FileChoosers.py:137
 #, python-format
@@ -1418,7 +1426,7 @@ msgstr "<специальное поле>"
 #: radialnet/gui/NodeNotebook.py:389
 #, python-format
 msgid "Extraports (%s)"
-msgstr ""
+msgstr "Дополнительные порты (%s)"
 
 #: radialnet/gui/NodeNotebook.py:396
 msgid "Special fields"
@@ -1642,7 +1650,7 @@ msgstr "Прочее"
 
 #: share/zenmap/misc/profile_editor.xml:14
 msgid "Timing"
-msgstr ""
+msgstr "Таймниг"
 
 #: share/zenmap/misc/profile_editor.xml:16
 msgid "Scan options"
@@ -1775,10 +1783,12 @@ msgid ""
 "Do not scan any targets, just list which ones would be scanned (with reverse "
 "DNS names if available)."
 msgstr ""
+"Не сканировать ничего, просто вывести цели, которые должны быть "
+"просканированы (с обратными именами DNS если возможно)"
 
 #: share/zenmap/misc/profile_editor.xml:33
 msgid "List scan"
-msgstr ""
+msgstr "Список сканирования"
 
 #: share/zenmap/misc/profile_editor.xml:34
 msgid ""
@@ -1788,7 +1798,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:34
 msgid "No port scan"
-msgstr ""
+msgstr "Не сканировать порты"
 
 #: share/zenmap/misc/profile_editor.xml:35
 msgid ""
@@ -1811,7 +1821,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:39
 msgid "Timing template: "
-msgstr "Тайминг шаблон"
+msgstr "Тайминг шаблон:"
 
 #: share/zenmap/misc/profile_editor.xml:41
 #: share/zenmap/misc/profile_editor.xml:42
@@ -2039,7 +2049,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:69
 msgid "Scripts to run"
-msgstr ""
+msgstr "Скрипты для запуска"
 
 #: share/zenmap/misc/profile_editor.xml:70
 msgid ""
@@ -2049,7 +2059,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:70
 msgid "Script arguments"
-msgstr ""
+msgstr "Аргументы скрипта"
 
 #: share/zenmap/misc/profile_editor.xml:71
 msgid "Show all information sent and received by the scripting engine."
@@ -2216,39 +2226,41 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:93
 msgid "Packet trace"
-msgstr ""
+msgstr "Трассировка пакетов"
 
 #: share/zenmap/misc/profile_editor.xml:94
 msgid "Scan ports in order instead of randomizing them."
-msgstr ""
+msgstr "Сканировать порты по порядку, вместо случайной последовательности."
 
 #: share/zenmap/misc/profile_editor.xml:94
 msgid "Disable randomizing scanned ports"
-msgstr ""
+msgstr "Отключить случайное сканирование портов"
 
 #: share/zenmap/misc/profile_editor.xml:95
 msgid ""
 "Trace the network path to each target after scanning. This works with all "
 "scan types except connect scan (-sT) and idle scan (-sI)."
 msgstr ""
+"Трассировать сетевой путь к каждой цели после сканирования. Работает со "
+"всеми типами сканирования кроме Connection Scan (-sT) и Idle Scan (-sI)."
 
 #: share/zenmap/misc/profile_editor.xml:95
 msgid "Trace routes to targets"
-msgstr ""
+msgstr "Трассировка маршрута до целей"
 
 #: share/zenmap/misc/profile_editor.xml:96
 msgid ""
 "Try sending a probe to each port no more than this many times before giving "
 "up."
-msgstr ""
+msgstr "Пытаться сканировать каждый порт не более указанного количества."
 
 #: share/zenmap/misc/profile_editor.xml:96
 msgid "Max Retries"
-msgstr ""
+msgstr "Максимум попыток"
 
 #: share/zenmap/misc/profile_editor.xml:98
 msgid "Timing and performance"
-msgstr ""
+msgstr "Тайминг и производительность"
 
 #: share/zenmap/misc/profile_editor.xml:99
 msgid ""
@@ -2256,10 +2268,13 @@ msgid ""
 "is in seconds by default, or may be followed by a suffix of 'ms' for "
 "milliseconds, 's' for seconds, 'm' for minutes, or 'h' for hours."
 msgstr ""
+"Оставить сканирование узла, если оно превысило указанное время. По умолчанию "
+"время указывается в секундах, но может быть указан суфикс 'ms' для "
+"милисекунд, суффикс 's' для секунд, 'm' для минут, или 'h' для часов."
 
 #: share/zenmap/misc/profile_editor.xml:99
 msgid "Max time to scan a target"
-msgstr ""
+msgstr "Максимальное время сканирования цели"
 
 #: share/zenmap/misc/profile_editor.xml:100
 msgid ""
@@ -2268,10 +2283,14 @@ msgid ""
 "by a suffix of 'ms' for milliseconds, 's' for seconds, 'm' for minutes, or "
 "'h' for hours."
 msgstr ""
+"Ждать ответа не более указанного времени, прежде чем будет осуществлена "
+"повторная попытка. По умолчанию время указывается в секундах, но может быть "
+"указан суфикс 'ms' для милисекунд, суффикс 's' для секунд, 'm' для минут, "
+"или 'h' для часов."
 
 #: share/zenmap/misc/profile_editor.xml:100
 msgid "Max probe timeout"
-msgstr ""
+msgstr "Максимальное время ожидания"
 
 #: share/zenmap/misc/profile_editor.xml:101
 msgid ""
@@ -2280,36 +2299,43 @@ msgid ""
 "by a suffix of 'ms' for milliseconds, 's' for seconds, 'm' for minutes, or "
 "'h' for hours."
 msgstr ""
+"Ждать ответа не менее указанного времени, прежде чем будет осуществлена "
+"повторная попытка. По умолчанию время указывается в секундах, но может быть "
+"указан суфикс 'ms' для милисекунд, суффикс 's' для секунд, 'm' для минут, "
+"или 'h' для часов."
 
 #: share/zenmap/misc/profile_editor.xml:101
 msgid "Min probe timeout"
-msgstr ""
+msgstr "Минимальное время ожидания"
 
 #: share/zenmap/misc/profile_editor.xml:102
 msgid ""
 "Use the time given as the initial estimate of round-trip time. This can "
 "speed up scans if you know a good time for the network you're scanning."
 msgstr ""
+"Используйте это время для указания начального ожидания перед переходом к "
+"следующему узлу. Это позволит ускорить сканирование, если вы уверены в "
+"пропускной способности сети."
 
 #: share/zenmap/misc/profile_editor.xml:102
 msgid "Initial probe timeout"
-msgstr ""
+msgstr "Первоначальное ожидание"
 
 #: share/zenmap/misc/profile_editor.xml:103
 msgid "Scan no more than this many hosts in parallel."
-msgstr ""
+msgstr "Не сканировать больше указанного количества за раз."
 
 #: share/zenmap/misc/profile_editor.xml:103
 msgid "Max hosts in parallel"
-msgstr ""
+msgstr "Максимальное количество узлов за раз"
 
 #: share/zenmap/misc/profile_editor.xml:104
 msgid "Scan at least this many hosts in parallel."
-msgstr ""
+msgstr "Параллельное сканирование как минимум указанного количества узлов."
 
 #: share/zenmap/misc/profile_editor.xml:104
 msgid "Min hosts in parallel"
-msgstr ""
+msgstr "Минимальное количество узлов за раз"
 
 #: share/zenmap/misc/profile_editor.xml:105
 msgid ""
@@ -2317,10 +2343,12 @@ msgid ""
 "time. May be set to 1 to prevent Nmap from sending more than one probe at a "
 "time to hosts."
 msgstr ""
+"Никогда не допускать больше попыток чем указано. Может быть установлено в 1 "
+"для предотвращения множества попыток за раз к одному узлу."
 
 #: share/zenmap/misc/profile_editor.xml:105
 msgid "Max outstanding probes"
-msgstr ""
+msgstr "Максимально число попыток"
 
 #: share/zenmap/misc/profile_editor.xml:106
 msgid ""
@@ -2328,10 +2356,13 @@ msgid ""
 "scan. Common usage is to set to a number higher than 1 to speed up scans of "
 "poorly performing hosts or networks."
 msgstr ""
+"Пытаться поддерживать минимальное количество попыток во время сканирования. "
+"Обычно значение устанавливавается больше 1 для увеличения скорости "
+"сканировани в сетях с низкой производительностью."
 
 #: share/zenmap/misc/profile_editor.xml:106
 msgid "Min outstanding probes"
-msgstr ""
+msgstr "Миимально число попыток"
 
 #: share/zenmap/misc/profile_editor.xml:107
 msgid ""
@@ -2340,10 +2371,13 @@ msgid ""
 "be followed by a suffix of 'ms' for milliseconds, 's' for seconds, 'm' for "
 "minutes, or 'h' for hours."
 msgstr ""
+"Не допускать задержек (время задержки между запросами) больше чем указано. "
+"По умолчанию время указывается в секундах, но может быть указан суфикс 'ms' "
+"для милисекунд, суффикс 's' для секунд, 'm' для минут, или 'h' для часов."
 
 #: share/zenmap/misc/profile_editor.xml:107
 msgid "Max scan delay"
-msgstr ""
+msgstr "Максимальная задержка при сканировании"
 
 #: share/zenmap/misc/profile_editor.xml:108
 msgid ""
@@ -2351,7 +2385,10 @@ msgid ""
 "host. Time is in seconds by default, or may be followed by a suffix of 'ms' "
 "for milliseconds, 's' for seconds, 'm' for minutes, or 'h' for hours."
 msgstr ""
+"Ожидать между попытками не менее указанного времени. По умолчанию время "
+"указывается в секундах, но может быть указан суфикс 'ms' для милисекунд, "
+"суффикс 's' для секунд, 'm' для минут, или 'h' для часов."
 
 #: share/zenmap/misc/profile_editor.xml:108
 msgid "Min delay between probes"
-msgstr ""
+msgstr "Минимальная задержка между попытками"
