@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-18 19:32+0300\n"
+"PO-Revision-Date: 2016-06-19 03:52+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -23,7 +23,7 @@ msgstr "Неизвестный узел"
 
 #: zenmapCore/NmapParser.py:421
 msgid "unknown"
-msgstr "Неизвестно"
+msgstr "неизвестно"
 
 #: zenmapCore/NmapParser.py:424
 msgid "Unknown version"
@@ -201,7 +201,7 @@ msgid ""
 "was\n"
 "%s"
 msgstr ""
-"Файл не соответсвует формату выходного Nmap XML файла. Ошибка:\n"
+"Файл не соответствует формату выходного Nmap XML файла. Ошибка:\n"
 "%s"
 
 #: zenmapGUI/DiffCompare.py:268
@@ -215,6 +215,8 @@ msgid ""
 "file:\n"
 "                            %s"
 msgstr ""
+"                            Ошибка при открытии файла:\n"
+"                            %s"
 
 #: zenmapGUI/DiffCompare.py:314 zenmapGUI/MainWindow.py:341
 msgid "Compare Results"
@@ -417,6 +419,8 @@ msgid ""
 "Can't store unsaved scans to the recent scans database:\n"
 "%s"
 msgstr ""
+"Не возможно сохранить несохраненные отчеты в базе последних отчетов:\n"
+"%s"
 
 #: zenmapGUI/MainWindow.py:600
 msgid "Error loading file"
@@ -914,7 +918,7 @@ msgstr "цвет подсветки"
 #: zenmapGUI/About.py:197
 #, python-format
 msgid "About %s and %s"
-msgstr "О программах %s и %s"
+msgstr "О %s и %s"
 
 #: zenmapGUI/About.py:216
 #, python-format
@@ -938,7 +942,9 @@ msgstr ""
 #, python-format
 msgid ""
 "%s is an %s GUI created as part of the Nmap/Google Summer of Code program."
-msgstr "%s это %s GUI, созданное как часть Nmap/Google Summer of code program."
+msgstr ""
+"%s это графический интерфейс для %s созданный в рамках программы Nmap/Google "
+"Summer of Code."
 
 #: zenmapGUI/About.py:229 zenmapGUI/About.py:272
 #, python-format
@@ -1007,7 +1013,7 @@ msgstr "Отменить сканирование"
 
 #: zenmapGUI/TopologyPage.py:180
 msgid "Show the topology anyway"
-msgstr ""
+msgstr "В любом случае показать топологию"
 
 #: zenmapGUI/TopologyPage.py:213
 #, python-format
@@ -1015,6 +1021,8 @@ msgid ""
 "Topology is disabled because too many hosts can cause it\n"
 "to run slowly. The limit is %d hosts and there are %d."
 msgstr ""
+"Топология отключена, т.к. слишком большое количество узлов\n"
+"приведет к замедлению. Ограничение - %d узлов. В топологии - %d."
 
 #: zenmapGUI/FileChoosers.py:137
 #, python-format
@@ -1418,7 +1426,7 @@ msgstr "<специальное поле>"
 #: radialnet/gui/NodeNotebook.py:389
 #, python-format
 msgid "Extraports (%s)"
-msgstr ""
+msgstr "Дополнительные порты (%s)"
 
 #: radialnet/gui/NodeNotebook.py:396
 msgid "Special fields"
@@ -1775,10 +1783,12 @@ msgid ""
 "Do not scan any targets, just list which ones would be scanned (with reverse "
 "DNS names if available)."
 msgstr ""
+"Не сканировать ничего, просто вывести цели, которые должны быть "
+"просканированы (с обратными именами DNS если возможно)"
 
 #: share/zenmap/misc/profile_editor.xml:33
 msgid "List scan"
-msgstr ""
+msgstr "Список сканирования"
 
 #: share/zenmap/misc/profile_editor.xml:34
 msgid ""
@@ -1788,7 +1798,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:34
 msgid "No port scan"
-msgstr ""
+msgstr "Не сканировать порты"
 
 #: share/zenmap/misc/profile_editor.xml:35
 msgid ""
@@ -2039,7 +2049,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:69
 msgid "Scripts to run"
-msgstr ""
+msgstr "Скрипты для запуска"
 
 #: share/zenmap/misc/profile_editor.xml:70
 msgid ""
@@ -2049,7 +2059,7 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:70
 msgid "Script arguments"
-msgstr ""
+msgstr "Аргументы скрипта"
 
 #: share/zenmap/misc/profile_editor.xml:71
 msgid "Show all information sent and received by the scripting engine."
@@ -2216,35 +2226,37 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:93
 msgid "Packet trace"
-msgstr ""
+msgstr "Трассировка пакетов"
 
 #: share/zenmap/misc/profile_editor.xml:94
 msgid "Scan ports in order instead of randomizing them."
-msgstr ""
+msgstr "Сканировать порты по порядку, вместо случайной последовательности."
 
 #: share/zenmap/misc/profile_editor.xml:94
 msgid "Disable randomizing scanned ports"
-msgstr ""
+msgstr "Отключить случайное сканирование портов"
 
 #: share/zenmap/misc/profile_editor.xml:95
 msgid ""
 "Trace the network path to each target after scanning. This works with all "
 "scan types except connect scan (-sT) and idle scan (-sI)."
 msgstr ""
+"Трассировать сетевой путь к каждой цели после сканирования. Работает со "
+"всеми типами сканирования кроме Connection Scan (-sT) и Idle Scan (-sI)."
 
 #: share/zenmap/misc/profile_editor.xml:95
 msgid "Trace routes to targets"
-msgstr ""
+msgstr "Трассировка маршрута до целей"
 
 #: share/zenmap/misc/profile_editor.xml:96
 msgid ""
 "Try sending a probe to each port no more than this many times before giving "
 "up."
-msgstr ""
+msgstr "Пытаться сканировать каждый порт не более указанного количества."
 
 #: share/zenmap/misc/profile_editor.xml:96
 msgid "Max Retries"
-msgstr ""
+msgstr "Максимум попыток"
 
 #: share/zenmap/misc/profile_editor.xml:98
 msgid "Timing and performance"
