@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zenmap\n"
 "Report-Msgid-Bugs-To: dev@nmap.org\n"
 "POT-Creation-Date: 2014-10-23 15:14+0000\n"
-"PO-Revision-Date: 2016-06-19 03:52+0300\n"
+"PO-Revision-Date: 2016-08-03 22:54+0300\n"
 "Last-Translator: spxnezzar@gmail.com\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -2208,21 +2208,23 @@ msgstr ""
 
 #: share/zenmap/misc/profile_editor.xml:91
 msgid "Verbosity level"
-msgstr ""
+msgstr "Уровень детализации"
 
 #: share/zenmap/misc/profile_editor.xml:92
 msgid ""
 "When even verbose mode doesn't provide sufficient data for you, debugging "
 "level is available to show more detailed output."
 msgstr ""
+"Когда даже в расширенном режиме не достаточно данных для вас, то уровень "
+"отладки можеи показать более подробные данные."
 
 #: share/zenmap/misc/profile_editor.xml:92
 msgid "Debugging level"
-msgstr ""
+msgstr "Уровень отладки"
 
 #: share/zenmap/misc/profile_editor.xml:93
 msgid "Print a summary of every packet sent or received."
-msgstr ""
+msgstr "Выводить краткую информацию о каждом принятом и отправленном пакете."
 
 #: share/zenmap/misc/profile_editor.xml:93
 msgid "Packet trace"
